@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    background: linear-gradient(to bottom, crimson, maroon);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    max-width: 600px;
+    background-color: rgba(54, 0, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(67, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    margin: 10px 0;
+    font-family: 'Pacifico', cursive;
+}
+
+p {
+    line-height: 1.6;
+}
+
+a {
+    color: rgb(43, 43, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(161, 0, 0);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(233, 40, 40);
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(36, 0, 0, 0.7);
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: rgb(41, 41, 247);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: lightblue;
+}
+
+.voice-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 24px;
+    width: 50px; /* Ajuste o tamanho do botão */
+    height: 50px; /* Ajuste o tamanho do botão */
+    background-color: maroon; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    border: none; /* Remover borda */
+    border-radius: 5px; /* Cantos arredondados */
+    cursor: pointer; /* Mudar o cursor ao passar o mouse */
+    display: flex; /* Usar flexbox para centralizar */
+    justify-content: center; /* Centralizar horizontalmente */
+    align-items: center; /* Centralizar verticalmente */
+}
